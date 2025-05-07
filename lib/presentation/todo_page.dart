@@ -16,6 +16,7 @@ class TodoPage extends StatelessWidget {
           child: Column(
             children: [
               Text('Todo List'),
+              SizedBox(height: 16.0,),
               Row(
                 children: [
                   Column(
@@ -35,7 +36,7 @@ class TodoPage extends StatelessWidget {
                       ),           
                     ],
                   ),
-                  SizedBox(width: 16.0,),
+                  SizedBox(width: 30.0,),
                   Expanded(
                     child: ElevatedButton(
                       onPressed: (){
@@ -58,6 +59,7 @@ class TodoPage extends StatelessWidget {
                   ),
                 ],
               ),
+              SizedBox(height: 16.0,),
               Form(
                 key: _key,
                 child: Row(
