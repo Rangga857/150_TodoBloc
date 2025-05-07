@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
+import 'package:counterpage/model/todo.dart';
 import 'package:meta/meta.dart';
 
 part 'todo_event.dart';
